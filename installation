@@ -1,0 +1,16 @@
+How To Install Git on Ubuntu 20.04
+
+First, use the apt package management tools to update your local package index.
+
+sudo apt update
+
+With the update complete, you can install Git:
+
+sudo apt install git
+You can confirm that you have installed Git correctly by running the following command and checking that you receive relevant output.
+
+git --version
+Output
+git version 2.25.1
+
+
