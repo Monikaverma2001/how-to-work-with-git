@@ -1,0 +1,38 @@
+intialized git by:
+in your folder which you want to be vs
+_____________________________________________________________
+git init
+
+_____________________________________________________________
+
+check status of your folder files by
+git status--it tell you which commit is needed or not
+
+_______________________________________________________________________
+
+
+example
+
+    monika@monika-IdeaPad-Gaming-3-15ACH6:~/mean-demo$ git init
+Initialized empty Git repository in /home/monika/mean-demo/.git/
+monika@monika-IdeaPad-Gaming-3-15ACH6:~/mean-demo$ git add .
+monika@monika-IdeaPad-Gaming-3-15ACH6:~/mean-demo$ git status
+On branch master
+
+No commits yet
+
+_____________________________________________
+
+
+commit --after processing it you will never rollback--commit to the final stage
+
+
+monika@monika-IdeaPad-Gaming-3-15ACH6:~/mean-demo$ git commit -m "my mean project commit 1"
+[master (root-commit) 4813042] my mean project commit 1
+____________________________________________
+
+monika@monika-IdeaPad-Gaming-3-15ACH6:~/mean-demo$ git status
+On branch master
+nothing to commit, working tree clean
+
+
