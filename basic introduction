@@ -1,0 +1,13 @@
+Git is a version control system.
+Git helps you keep track of code changes.
+Git is used to collaborate on code.
+
+my git version :    
+
+
+Configure Git
+git config --global user.name "username"
+git config --global user.email "example@gmail.com"
+
+Initialize Git
+git init
